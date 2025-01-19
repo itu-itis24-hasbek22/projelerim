@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        /* CSS kodlarını düzenlice yazıyorummm */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        .about {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .photo img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid #333;
+            margin-bottom: 20px;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .biography, .academic {
+            width: 45%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: #000;
+        }
+
+        .game-intro {
+            background-color: #e9f5ff;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 10px;
+            max-width: 800px;
+            margin: 30px auto;
+        }
+
+        .game-intro h2 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .start-button {
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .start-button:hover {
+            background-color: #4cae4c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ABOUT ME</h1>
+    </header>
+    <main>
+        <section class="about">
+            <div class="photo">
+                <img src="IMAGES/myPhoto.jpg" alt="My Photo">
+            </div>
+            <div class="content">
+                <div class="biography">
+                    <h2>MY BIOGRAPHY</h2>
+                    <p>
+                        Hello, I am Erdem. I am studying Artificial Intelligence And Data Engineering at Istanbul Technical University and I'm 21 years old.
+                        I was born in Sivas and I live in Istanbul. I studied high school at Afyonkarahisar. I am a board member 
+                        of ITU AI Club.
+                    </p>
+                </div>
+                <div class="academic">
+                    <h2>ACADEMIC INTERESTS</h2>
+                    <p>
+                        I am interested in many areas of software. I've been learning python for a while. I plan to work on artificial intelligence and machine learning in the future. Since I am also interested
+                        in mechanics, it is one of my wishes to turn to robotics.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="game-intro">
+            <h2>WORD PREDICTION GAME</h2>
+            <p>
+                The Word Prediction Game tests your vocabulary and guessing skills. Try to predict the hidden letters of the word and uncover it step by step. Earn points for correct guesses and avoid losing lives. Can you guess the word before running out of chances?
+            </p>
+            <button class="start-button" onclick="openGame()">Start</button>
+        </section>
+    </main>
+    <script>
+        function openGame() {
+            // Yeni bir sekmede game.html'i açmak için bu kodu kullanmalıyılz
+            window.open("game.html", "_blank");
+        }
+    </script>
+</body>
+</html>
