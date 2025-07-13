@@ -1,6 +1,6 @@
 # Erdem Hasbek – Projelerim / My Projects
 
-## 🇹🇷 Hakkımda
+## Hakkımda
 
 Merhaba! Ben **Erdem Hasbek**, İstanbul Teknik Üniversitesi'nde **Yapay Zeka ve Veri Mühendisliği** 2. sınıf öğrencisiyim.
 
@@ -20,7 +20,7 @@ gibi farklı kategorilerde geliştirdiğim projeleri bulabilirsiniz.
 
 ---
 
-## 🇬🇧 About Me
+## About Me
 
 Hi! I'm **Erdem Hasbek**, a 2nd-year student in **Artificial Intelligence and Data Engineering** at **Istanbul Technical University**.
 
